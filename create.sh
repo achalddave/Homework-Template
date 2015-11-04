@@ -24,4 +24,4 @@ mkdir -p ${directory_name}
 cp ${template} "${directory_name}/${tex_name}"
 
 cd ${directory_name}
-sed -i "s/#{TEMPLATE_HOMEWORK_NUMBER}/${hw_num}/" ${tex_name}
+sed -i '' "s/#{TEMPLATE_HOMEWORK_NUMBER}/${hw_num}/" ${tex_name}

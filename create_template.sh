@@ -30,7 +30,7 @@ if [[ -f "${template_name}" ]] ; then
 fi
 
 cp "${script_dir}/generic_template.tex" "${template_name}"
-sed -i \
+sed -i '' \
     -e "s/#{TEMPLATE_NAME}/${author}/" \
     -e "s/#{TEMPLATE_COURSE_NAME}/${course_name}/" \
     -e "s/#{TEMPLATE_COURSE_SEMESTER}/${course_semester}/" \
